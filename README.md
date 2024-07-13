@@ -64,7 +64,7 @@ The Flask server will run at http://localhost:5000.
 In a separate terminal, start the React development server (if not already integrated with Flask):
 
 ```bash 
-cd frontend
+cd weather-forecast
 npm start
 ```
 The React server typically runs at http://localhost:3000.
