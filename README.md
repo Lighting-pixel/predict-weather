@@ -6,11 +6,6 @@ An application for predicting weather conditions using a machine learning model 
 
 This project combines Flask, React, and a machine learning model to predict weather conditions based on user input. The Flask backend serves the machine learning model, while React handles the user interface.
 
-## Demo
-
-![Weather Prediction App Screenshot](https://drive.google.com/file/d/10ycZboO4z1kBEKbbpe9mSThL6iYyoOcU/view?usp=drive_link)
-
-
 
 ## Technologies Used
 
@@ -32,18 +27,19 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/weather-prediction.git
 cd weather-prediction
+```
 
 Install Python dependencies for Flask:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Install Node.js dependencies for React (if applicable):
 
 ```bash
 cd frontend
 npm install
-
+```
 #### Tailwind CSS
 
 Tailwind CSS is already included in the project and should not require separate installation steps unless modifications are needed. If you need to rebuild Tailwind styles:
@@ -60,7 +56,7 @@ Start the Flask server:
 
 ```bash
 python app.py
-
+```
 The Flask server will run at http://localhost:5000.
 
 #### *React Frontend*
@@ -70,7 +66,7 @@ In a separate terminal, start the React development server (if not already integ
 ```bash 
 cd frontend
 npm start
-
+```
 The React server typically runs at http://localhost:3000.
 
 ## Usage
