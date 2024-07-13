@@ -25,7 +25,7 @@ This project combines Flask, React, and a machine learning model to predict weat
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/weather-prediction.git
+git clone https://github.com/Lighting-pixel/predict-weather.git
 cd weather-prediction
 ```
 
@@ -50,7 +50,7 @@ Tailwind CSS is already included in the project and should not require separate 
 
 ### Running the Application
 
-#### *Flask Backend*
+#### __Flask Backend__
 
 Start the Flask server:
 
@@ -59,7 +59,7 @@ python app.py
 ```
 The Flask server will run at http://localhost:5000.
 
-#### *React Frontend*
+#### __React Frontend__
 
 In a separate terminal, start the React development server (if not already integrated with Flask):
 
