@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Install Node.js dependencies for React (if applicable):
 
 ```bash
-cd frontend
+cd weather-forecast
 npm install
 ```
 #### Tailwind CSS
