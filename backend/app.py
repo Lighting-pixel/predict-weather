@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load the trained model
-model = joblib.load('weather.pkl')
+model = joblib.load('model/weather.pkl')
 
 # Define label mapping
 label_mapping = {
