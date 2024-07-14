@@ -1,7 +1,0 @@
-services:
-  - name: backend
-    envVars:
-      - key: PYTHONPATH
-        value: "/render"
-    buildCommand: "pip install -r backend/requirements.txt"
-    startCommand: "python backend/app.py"

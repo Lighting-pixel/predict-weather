@@ -32,9 +32,10 @@ cd weather-prediction
 Install Python dependencies for Flask:
 
 ```bash
+cd backend
 pip install -r requirements.txt
 ```
-Install Node.js dependencies for React (if applicable):
+Install Node.js dependencies for React :
 
 ```bash
 cd weather-forecast
@@ -44,7 +45,7 @@ npm install
 
 Tailwind CSS is already included in the project and should not require separate installation steps unless modifications are needed. If you need to rebuild Tailwind styles:
 
-1. Navigate to the `frontend` directory.
+1. Navigate to the `weather-forecast` directory.
 2. Run `npm install` to install any necessary Node.js packages.
 3. Run `npm run build` to rebuild Tailwind CSS styles based on your `tailwind.config.js` configuration file.
 
@@ -55,6 +56,7 @@ Tailwind CSS is already included in the project and should not require separate 
 Start the Flask server:
 
 ```bash
+cd backend
 python app.py
 ```
 The Flask server will run at http://localhost:5000.
