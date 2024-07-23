@@ -26,7 +26,6 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Lighting-pixel/predict-weather.git
-cd weather-prediction
 ```
 
 Install Python dependencies for Flask:
