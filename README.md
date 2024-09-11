@@ -6,6 +6,10 @@ An application for predicting weather conditions using a machine learning model 
 
 This project combines Flask, React, and a machine learning model to predict weather conditions based on user input. The Flask backend serves the machine learning model, while React handles the user interface.
 
+## Interface 
+
+![weather-prediction-interface](/image.png) 
+
 
 ## Technologies Used
 
